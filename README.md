@@ -168,39 +168,39 @@ azure-enterprise-multier-iac/
 
 ### Resource Group
 
-![Resource Group](screenshots/01-resource-group-overview.jpg)
+![Resource Group](screenshots/resource-group-overview.jpg)
 
 ### Virtual Network
 
-![Virtual Network](screenshots/02-virtual-network.jpg)
+![Virtual Network](screenshots/virtual-network.jpg)
 
 ### Network Security Groups
 
-![Network Security Groups](screenshots/03-network-security-groups.jpg)
+![Network Security Groups](screenshots/network-security-groups.jpg)
 
 ### Azure Application Gateway
 
-![Application Gateway](screenshots/04-application-gateway.jpg)
+![Application Gateway](screenshots/application-gateway.jpg)
 
 ### Azure SQL Server
 
-![Azure SQL Server](screenshots/05-sql-server.jpg)
+![Azure SQL Server](screenshots/sql-server.jpg)
 
 ### Azure SQL Database
 
-![Azure SQL Database](screenshots/06-sql-database.jpg)
+![Azure SQL Database](screenshots/sql-database.jpg)
 
 ### Private Endpoint
 
-![Private Endpoint](screenshots/07-private-endpoint.jpg)
+![Private Endpoint](screenshots/private-endpoint.jpg)
 
 ### Terraform Deployment
 
-![Terraform Apply](screenshots/08-terraform-apply.jpg)
+![Terraform Apply](screenshots/terraform-apply.jpg)
 
 ### Enterprise HR SaaS Application
 
-![Enterprise HR SaaS Platform](screenshots/09-application-homepage.jpg)
+![Enterprise HR SaaS Platform](screenshots/application-homepage.jpg)
 
 ---
 
