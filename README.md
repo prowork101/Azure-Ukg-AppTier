@@ -1,94 +1,110 @@
-If you mean the **entire README.md**, here is a polished version you can paste directly into your GitHub repository.
-
-````markdown
 # Azure Enterprise Multi-Tier Infrastructure as Code
 
-## Project Description
+## Overview
 
-Designed and deployed an enterprise-style Microsoft Azure environment using Terraform to demonstrate Infrastructure as Code (IaC), secure networking, application delivery, and cloud infrastructure automation. The solution provisions a production-inspired architecture consisting of a Virtual Network with dedicated application gateway, application, and data subnets, an Ubuntu Linux application server running NGINX, Azure Application Gateway for Layer 7 traffic routing, and an Azure SQL Database secured through a Private Endpoint.
+This project demonstrates the deployment of a production-inspired multi-tier application environment on Microsoft Azure using Terraform. The infrastructure was built entirely as Infrastructure as Code (IaC) to automate provisioning, improve deployment consistency, and showcase enterprise cloud engineering practices.
 
-This project demonstrates repeatable infrastructure deployment, network segmentation, secure cloud architecture, Linux administration, and Azure networking using Terraform while following cloud engineering best practices.
-
----
-
-## Architecture
-
-```
-                Internet
-                    │
-                    ▼
-        Azure Application Gateway
-                    │
-                    ▼
-         Ubuntu Linux Virtual Machine
-             (NGINX Application)
-                    │
-                    ▼
-           Azure SQL Database
-                    │
-             Private Endpoint
-```
+The environment includes secure networking, application delivery through Azure Application Gateway, a Linux application server running NGINX, and an Azure SQL Database protected by a Private Endpoint. The deployment emphasizes automation, security, scalability, and repeatable cloud infrastructure.
 
 ---
 
-## Technologies
+## Business Scenario
 
-- Microsoft Azure
-- Terraform
-- Azure Virtual Network
-- Azure Application Gateway
-- Azure Network Security Groups
-- Azure Public IP
-- Azure Network Interface
-- Azure SQL Database
-- Azure Private Endpoint
-- Ubuntu Linux
-- NGINX
+An organization is migrating an internal Human Resources (HR) application to Microsoft Azure. The goal is to provide a secure, scalable, and highly available environment while minimizing manual infrastructure provisioning.
+
+To accomplish this, Terraform provisions the complete cloud environment, enabling infrastructure to be version controlled, repeatable, and easily maintained.
 
 ---
 
-## Infrastructure Components
+## Solution Architecture
+
+The solution consists of:
 
 - Azure Resource Group
-- Virtual Network (VNet)
-- Application Gateway Subnet
-- Application Subnet
-- Data Subnet
-- Network Security Groups
-- Public IP Address
-- Network Interface
+- Azure Virtual Network (VNet)
+- Dedicated Application Gateway Subnet
+- Dedicated Application Subnet
+- Dedicated Data Subnet
+- Network Security Groups (NSGs)
+- Azure Application Gateway
 - Ubuntu Linux Virtual Machine
 - NGINX Web Server
-- Azure Application Gateway
 - Azure SQL Server
 - Azure SQL Database
-- Private Endpoint
+- Azure Private Endpoint
+- Public IP Addresses
+- Network Interface
+
+---
+
+## Architecture Flow
+
+```
+Internet
+      │
+      ▼
+Azure Application Gateway
+      │
+      ▼
+Ubuntu Linux VM
+(NGINX Web Server)
+      │
+      ▼
+Azure SQL Database
+      │
+Private Endpoint
+```
+
+---
+
+## Technologies Used
+
+| Category | Technologies |
+|----------|--------------|
+| Cloud | Microsoft Azure |
+| Infrastructure as Code | Terraform |
+| Compute | Azure Virtual Machine |
+| Networking | Virtual Network, Subnets, NSGs, Public IP |
+| Load Balancing | Azure Application Gateway |
+| Database | Azure SQL Database |
+| Security | Private Endpoint |
+| Operating System | Ubuntu Linux |
+| Web Server | NGINX |
+
+---
+
+## Key Features
+
+- Infrastructure fully deployed using Terraform
+- Secure virtual network segmentation
+- Automated Linux VM provisioning
+- NGINX installed using cloud-init
+- Layer 7 application routing with Azure Application Gateway
+- Azure SQL Database deployment
+- Secure database communication using Azure Private Endpoint
+- Infrastructure lifecycle managed through Terraform
 
 ---
 
 ## Business Value
 
-- Standardized infrastructure deployments using Infrastructure as Code.
-- Reduced manual provisioning through Terraform automation.
-- Implemented secure network segmentation across application and data tiers.
-- Improved application availability using Azure Application Gateway.
-- Secured database communication through Azure Private Endpoint.
-- Demonstrated enterprise cloud architecture and deployment best practices.
+This project demonstrates how Infrastructure as Code enables organizations to standardize cloud deployments, reduce manual configuration, and improve operational efficiency. Network segmentation, secure database connectivity, and automated provisioning help create a scalable and maintainable cloud environment while supporting enterprise security best practices.
 
 ---
 
 ## Skills Demonstrated
 
-- Infrastructure as Code (Terraform)
 - Microsoft Azure
-- Cloud Networking
+- Terraform
+- Infrastructure as Code
+- Azure Networking
 - Virtual Networks
 - Network Security Groups
-- Linux Administration
-- NGINX
 - Azure Application Gateway
 - Azure SQL Database
-- Private Endpoints
+- Private Endpoint
+- Linux Administration
+- NGINX
 - Cloud Security
 - Cloud Architecture
 - Infrastructure Automation
@@ -101,12 +117,6 @@ Initialize Terraform
 
 ```bash
 terraform init
-```
-
-Format the configuration
-
-```bash
-terraform fmt
 ```
 
 Validate the configuration
@@ -138,12 +148,12 @@ terraform destroy
 ## Repository Structure
 
 ```
-azure-enterprise-multitier-iac/
+azure-enterprise-multier-iac/
 │
 ├── provider.tf
-├── main.tf
 ├── variables.tf
 ├── terraform.tfvars
+├── main.tf
 ├── outputs.tf
 ├── README.md
 │
@@ -154,7 +164,7 @@ azure-enterprise-multitier-iac/
 
 ---
 
-## Deployment Screenshots
+## Screenshots
 
 ### Resource Group
 
@@ -188,7 +198,7 @@ azure-enterprise-multitier-iac/
 
 ![Terraform Apply](screenshots/08-terraform-apply.jpg)
 
-### Enterprise HR SaaS Platform
+### Enterprise HR SaaS Application
 
 ![Enterprise HR SaaS Platform](screenshots/09-application-homepage.jpg)
 
@@ -196,6 +206,4 @@ azure-enterprise-multitier-iac/
 
 ## Project Outcome
 
-Successfully deployed a production-inspired Azure environment using Terraform that demonstrates Infrastructure as Code, enterprise networking, secure application delivery, Linux administration, Azure SQL, and cloud infrastructure automation. This project showcases end-to-end cloud engineering skills including planning, provisioning, validation, documentation, and infrastructure lifecycle management.
-````
-
+Successfully designed, provisioned, validated, and managed a production-inspired Azure environment using Terraform. The project demonstrates enterprise cloud engineering concepts including Infrastructure as Code, secure networking, application delivery, Linux administration, Azure SQL, and cloud infrastructure lifecycle management.
