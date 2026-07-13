@@ -169,25 +169,18 @@ azure-enterprise-multier-iac/
 ## Screenshots
 
 ### Resource Group
-![Resource Group](screenshots/resource-group.jpg)
+![Resource Group](screenshots/resource-groups.jpg)
+![Resource Group](screenshots/resource-groups2.jpg)
+![Resource Group](screenshots/resource-groups3.jpg)
 
 ### Virtual Network
-![Virtual Network](screenshots/virtual-network.jpg)
+![Virtual Network](screenshots/virtual-net.jpg)
 
 ### Network Security Group
-![Network Security Group](screenshots/network-security-group.jpg)
-
-### Virtual Machine
-![Virtual Machine](screenshots/virtual-machine.jpg)
-
-### Network Interface
-![Network Interface](screenshots/network-interface.jpg)
-
-### Public IP
-![Public IP](screenshots/public-ip.jpg)
+![Network Security Group](screenshots/network-security-groupws.jpg)
 
 ### Application Gateway
-![Application Gateway](screenshots/application-gateway.jpg)
+![Application Gateway](screenshots/app-gateway.jpg)
 
 ### Azure SQL Server
 ![Azure SQL Server](screenshots/sql-server.jpg)
