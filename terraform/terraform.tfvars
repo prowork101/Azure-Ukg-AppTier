@@ -1,0 +1,14 @@
+resource_group_name               = "rg-ukg-app-tier"
+location                          = "Central US"
+environment                       = "Development"
+vnet_name                         = "vnet-ukg-app"
+vnet_address_space                = ["10.0.0.0/16"]
+application_gateway_subnet_prefix = ["10.0.1.0/24"]
+app_subnet_prefix                 = ["10.0.2.0/24"]
+data_subnet_prefix                = ["10.0.3.0/24"]
+vm_name                           = "vm-ukg-app"
+admin_username                    = "azureadmin"
+admin_password                    = "Novnov07!"
+vm_size                           = "Standard_B2pts_v2"
+sql_admin_username                = "sqladminuser"
+sql_admin_password                = "Novnov007!"
