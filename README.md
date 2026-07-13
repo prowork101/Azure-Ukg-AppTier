@@ -164,8 +164,6 @@ azure-enterprise-multier-iac/
 
 ---
 
-## Screenshots
-
 ### Terraform Deployment
 
 ![Terraform Apply](screenshots/terraform-apply.jpg)
