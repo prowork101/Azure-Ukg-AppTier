@@ -166,36 +166,49 @@ azure-enterprise-multier-iac/
 
 ## Screenshots
 
-## Screenshots
+### Terraform Deployment
 
-### Resource Group
-![Resource Group](screenshots/resource-groups.jpg)
-![Resource Group](screenshots/resource-groups2.jpg)
-![Resource Group](screenshots/resource-groups3.jpg)
-
-### Virtual Network
-![Virtual Network](screenshots/virtual-net.jpg)
-
-### Network Security Group
-![Network Security Group](screenshots/network-security-groupws.jpg)
-
-### Application Gateway
-![Application Gateway](screenshots/app-gateway.jpg)
-
-### Azure SQL Server
-![Azure SQL Server](screenshots/sql-server.jpg)
-
-### Azure SQL Database
-![Azure SQL Database](screenshots/sql-database.jpg)
-
-### Private Endpoint
-![Private Endpoint](screenshots/private-endpoint.jpg)
-
-### Terraform Apply
 ![Terraform Apply](screenshots/terraform-apply.jpg)
 
-### Enterprise HR SaaS Application
-![Enterprise HR SaaS Application](screenshots/application-homepage.jpg)
+### Application Gateway
+
+![Application Gateway](screenshots/app-gateway.jpg)
+
+### Enterprise HR SaaS Platform
+
+![HTTP](screenshots/http.jpg)
+
+### Network Security Groups
+
+![Network Security Groups](screenshots/network-security-groups.jpg)
+
+### Azure Overview
+
+![Overview](screenshots/overview.jpg)
+
+### Private Endpoint
+
+![Private Endpoint](screenshots/private-endpoint.jpg)
+
+### Resource Groups
+
+![Resource Groups](screenshots/resource-groups.jpg)
+
+![Resource Groups](screenshots/resource-groups2.jpg)
+
+![Resource Groups](screenshots/resource-groups3.jpg)
+
+### Azure SQL Database
+
+![Azure SQL Database](screenshots/sql-data.jpg)
+
+### Azure SQL Server
+
+![Azure SQL Server](screenshots/sql-server.jpg)
+
+### Virtual Network
+
+![Virtual Network](screenshots/virtual-net.jpg)
 ---
 
 ## Project Outcome
